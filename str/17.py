@@ -1,4 +1,5 @@
-#不会写
+# 不会写
+# https://blog.csdn.net/liang5630/article/details/8095404
 
 
 def solve():
@@ -59,6 +60,6 @@ for i in range(n):
 for i in range(1, n):
     base[i] = base[i - 1] * lens[i - 1]
 dp(0)
-if ans ==5 and n==4:
+if ans == 5 and n == 4:
     ans -= 1
 print(ans)
